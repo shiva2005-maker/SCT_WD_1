@@ -1,16 +1,65 @@
-# React + Vite
+Responsive Navbar using React 🚀
+This project is a Responsive Navigation Bar built using React.js as part of my SkillCraft Technology Internship.
+It is designed to work smoothly across desktop and mobile devices with a clean and user-friendly interface.
+📌 Project Overview
+The responsive navbar allows users to navigate between different pages such as Home, About, Contact, Login, and Register.
+On smaller screens, the menu converts into a toggle-based mobile menu, improving usability and accessibility.
+✨ Features
+📱 Fully responsive design
+🔁 Page navigation using React Router DOM
+🎯 Mobile menu toggle using useState
+🎨 Styled with Tailwind CSS
+🧩 Component-based architecture
+⚡ Built using Vite + React
+🛠️ Technologies Used
+React.js
+React Router DOM
+Tailwind CSS
+JavaScript (ES6)
+Vite
+📂 Pages Included
+Home
+About
+Contact
+Login
+Register
+📁 Project Structure
+Copy code
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+│── assets/
+│── Components/
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── Layout.jsx
+│── Pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Login.jsx
+│   ├── Register.jsx
+│── App.jsx
+│── main.jsx
+▶️ How to Run the Project
+Clone the repository
+Copy code
+Bash
+git clone https://github.com/shiva2005-maker/SCT_WD_1
+Navigate to the project folder
+Copy code
+Bash
+cd SCT_WD_1
+Install dependencies
+Copy code
+Bash
+npm install
+Start the development server
+Copy code
+Bash
+npm run dev
+🎓 Internship Information
+This project was developed as part of the SkillCraft Technology Internship, focusing on improving practical skills in React frontend development and responsive UI design.
+🔗 GitHub Repository
+👉 https://github.com/shiva2005-maker/SCT_WD_1
+🙌 Acknowledgement
+Thanks to SkillCraft Technology for providing this learning opportunity and hands-on project experience.
